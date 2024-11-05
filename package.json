@@ -1,0 +1,20 @@
+{
+  "name": "vagrant-nodejs-express",
+  "version": "1.0.0",
+  "description": "vagrant nodejs express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "vagrant"
+  ],
+  "author": "Pritesh Patel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
