@@ -8,7 +8,7 @@ var app = express()
 // Define the route for the root of the site
 // http://localhost:3000/
 app.get('/', function(req, res){
-  res.send(`Hello World from ${req.hostname}`);
+  res.send(`<h1>Hello World from ${req.hostname}</h1>`);
 });
 
 app.listen(SERVER_PORT);
